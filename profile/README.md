@@ -13,3 +13,21 @@
 | 202020735 | 이예인 | 📱 Backend |
 | 202021138 | 이채민 | 💻 Frontend |
 | 202126863 | 정문영 | 🖥️ Backend |
+
+
+
+
+### Git Convention
+
+| Header | 기능 | 
+| --- | --- | 
+| feat | 새로운 기능 추가 |
+| fix | 버그 수정 | 
+| docs | 문서 수정 | 
+| style | 코드 포멧팅 | 
+| refactor | 코드 리팩토링 | 
+| test | 테스트 코드 | 
+| chore | 빌드 업무 수정, 패키지 매니저 수정 | 
+| comment | 주석 추가 및 변경 | 
+| remove | 파일, 폴더 삭제 | 
+| rename | 파일, 폴더명 수정 | 
