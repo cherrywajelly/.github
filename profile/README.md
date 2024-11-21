@@ -4,6 +4,7 @@
 
 ![readme-thumbnail](https://github.com/user-attachments/assets/d39abe73-3896-4957-99bd-cd7d6aad5852)
 
+<br>
 
 ## 👥 **Team-cherry wa jelly**
 
@@ -11,7 +12,7 @@
 
 | 학번 | 이름 | 포지션 |
 | --- | --- | --- |
-| 201920756 | 이장원 | 🔦 PM, DevOps |
+| 201920756 | 이장원 | 🔦 DevOps, Frontend |
 | 202020735 | 이예인 | 📱 Backend |
 | 202021138 | 이채민 | 💻 Frontend |
 | 202126863 | 정문영 | 🖥️ Backend |
@@ -20,7 +21,7 @@
 
 ## **🔎 서비스 소개**
 
-### 🗂️ 서비스 개요
+### 🗂️ 핵심 기능
 
 ![slide2](https://github.com/user-attachments/assets/cacc47ce-a0e5-41e9-a149-6a7f2bbbb6b8)
 ![slide3](https://github.com/user-attachments/assets/2b4c1d35-447b-49ee-9a9f-d1e3d175bd7c)
@@ -39,9 +40,9 @@
 
 ### **📜 ERD 설계도**
 
-<br><br>
 <img width="888" alt="스크린샷 2024-11-21 오후 7 54 52" src="https://github.com/user-attachments/assets/825e0c03-1c8c-4933-b09e-77cf87eedbb6">
 
+<br>
 
 ## **💻 Technology**
 
@@ -56,14 +57,14 @@
 ### 💻 Infra
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/> <img src="https://img.shields.io/badge/tekton-FD495C?style=for-the-badge&logo=tekton&logoColor=white"/> <img src="https://img.shields.io/badge/argocd-EF7B4D?style=for-the-badge&logo=argo&logoColor=white"/> <img src="https://img.shields.io/badge/prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/> <img src="https://img.shields.io/badge/cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white"/> <img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/> <img src="https://img.shields.io/badge/fluent%20bit-49BDA5?style=for-the-badge&logo=fluent%20bit&logoColor=white"/>
 
-### 💾DB
+### 💾 DB
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/H2-004080?style=for-the-badge&logoColor=white"/>
 
 ### 🤝🏻 Co-working Tool
 
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
 
-<br><br>
+<br>
 
 ## 기술 스택 선정 이유
 
@@ -132,12 +133,11 @@
 | FCM | FCM(Firebase Cloud Messaging)은 안정적인 푸시 알림 전송을 위해 많이 사용되는 외부 API로, Google의 클라우드 인프라를 기반으로 빠르고 확실한 메시지 전송이 가능합니다. 또한 다양한 플랫폼을 지원하며, 서버 설정이 간편하고 확장성이 뛰어나 프로젝트 규모에 관계없이 손쉽게 통합할 수 있습니다. |
 | Slack | Slack App을 통해 채널에 메시지 전송, 스레드 생성의 동작을 하는 API를 사용합니다. |
 
-<br><br>
+<br>
 
 ## 🔖 Naming Rules
 
 ### 🖥️ Frontend
-
 
 - **Folder**: `kebab-case`
 - **File**: `PascalCase`
@@ -157,7 +157,7 @@
 - **Method** : `camelCase`
 - **Variables** : `camelCase`
 
-<br><br>
+<br>
 
 ## **🗂️ Commit Convention**
 
@@ -175,6 +175,8 @@
 | ✂️  remove | 파일, 폴더 삭제 |
 | 🔧  rename | 파일, 폴더명 수정 |
 
+<br>
+
 ## **🐬 Git Flow**
 
 <img width="738" alt="gitflow" src="https://github.com/Team-baebae/29th_Semi_README/assets/113423517/69f432a8-3764-4cbe-9f62-81372ebe13d0">
@@ -185,7 +187,6 @@
     - 브랜치 네이밍 : `feat/#이슈번호/[topic]`
 - **`fix`** : 이슈 단위로 버그를 수정하는 브랜치
     - 브랜치 네이밍: `fix/#이슈번호/[topic]`
-    <br>
 
 | Header | 기능 |
 | --- | --- |
