@@ -22,9 +22,9 @@
 
 ### 🗂️ 서비스 개요
 
-![slide1](https://github.com/user-attachments/assets/874fb9eb-77b9-41aa-8e14-847f1e0977d2)
 ![slide2](https://github.com/user-attachments/assets/cacc47ce-a0e5-41e9-a149-6a7f2bbbb6b8)
 ![slide3](https://github.com/user-attachments/assets/2b4c1d35-447b-49ee-9a9f-d1e3d175bd7c)
+![slide1](https://github.com/user-attachments/assets/874fb9eb-77b9-41aa-8e14-847f1e0977d2)
 
 
 ### 🗣️ 유저 persona
