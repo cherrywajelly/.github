@@ -101,7 +101,7 @@
 | Testcontainers | JUnit을 지원하는 Java 라이브러리로, Docker container 기반으로 DBMS 이미지를 통해 일회용 인스턴스를 활용한 test가 가능해 선정하였습니다. |
 | JaCoCo | Java의 테스트 커버리지를 측정하기 위한 오픈소스 도구로, 코드의 완성도를 판단하기 위해 선정하였습니다. |
 | Spring Rest Docs + Swagger | 테스트 코드를 기반으로 한 문서 자동화 도구로, 신뢰성 있는 API 명세와 테스트를 위해 선정하였습니다. |
-| 결제 ,, |  |
+| 결제 | Kakao의 OPEN API를 활용하여, kakaopay 결제 구현하였습니다. |
 
 ### 💻 **DevOps**
 
