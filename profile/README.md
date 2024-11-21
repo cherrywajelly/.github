@@ -139,18 +139,16 @@
 
 ### 🖥️ Frontend
 
-<!--
+
 - **Folder**: `kebab-case`
 - **File**: `PascalCase`
 - **Component**: `PascalCase`
-- **Constant**: `SNAKE_CASE`
+- **Constant**: `SCREAMING_SNAKE_CASE`
 - **Variable**: `camelCase`
 - **State(atom, recoil)**: `camelCaseState`
 - **Interface**
     - **props**: `PascalCaseProps`
-    - **api response**: `PascalCaseProps`
-
--->
+    - **api response**: `camelCaseProps`
 
 ### 🖥️ Backend
 
