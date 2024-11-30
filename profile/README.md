@@ -2,7 +2,8 @@
 
 **👐🏻 TimeToast는 기록의 목적인 “보존”과 “전달”을 가능하게 하며, 지속적인 공유가 가능한 추억 아카이빙 서비스입니다.**
 
-![readme-thumbnail](https://github.com/user-attachments/assets/d39abe73-3896-4957-99bd-cd7d6aad5852)
+<!-- ![readme-thumbnail](https://github.com/user-attachments/assets/d39abe73-3896-4957-99bd-cd7d6aad5852) -->
+![img](https://github.com/user-attachments/assets/d9a14333-f9f6-41f5-96ae-9d5727014dc3)
 
 <br>
 
