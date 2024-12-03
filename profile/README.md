@@ -43,11 +43,95 @@
 
 <br>
 
-## **🖥️ 개발**
+## **🏛 Architecture**
 
 ### **📜 ERD 설계도**
 
 <img width="888" alt="스크린샷 2024-11-21 오후 7 54 52" src="https://github.com/user-attachments/assets/825e0c03-1c8c-4933-b09e-77cf87eedbb6">
+
+### **☁ 클라우드 인프라**
+
+![infra](https://github.com/user-attachments/assets/7dee919e-2b4d-44a3-baf1-e2a2191447c5)
+
+### **🔄 CI/CD**
+
+![CICD](https://github.com/user-attachments/assets/7e91ee40-07bb-4655-b0a8-1e6cae97fb57)
+
+<br>
+
+## **🔄 CI/CD 파이프라인**
+
+### **📝 Pull Request**
+
+1. Notify Trigger
+    1. Notify Trigger
+
+    2. Create Thread
+
+2. Fetch Application
+    1. Git Clone
+
+3. Test Application
+    1. Test Application
+
+4. Notify Results
+    1. Notify Results
+
+### **✅ Merge Approve**
+
+1. Notify Trigger
+    1. Notify Trigger
+
+    2. Create Thread
+
+2. Fetch Application
+    1. Git Clone
+
+3. Build Push Image
+    1. Create DotEnv
+
+    2. Build Push Image
+    
+4. Fetch Manifest
+    1. Git clone
+
+5. Update Manifest
+    1. Update Manifest
+
+    2. Upload Manifest
+
+6. Notify Results
+    1. Notify Results
+
+### **❌ Merge Reject**
+
+1. Notify Trigger
+    1. Notify Trigger
+
+    2. Create Thread
+
+2. Notify Results
+    1. Notify Results
+
+### Description
+
+- Notify Trigger - GitHub의 동작을 통해 어떤 파이프라인이 작동되었는지 Slack으로 알림을 전송합니다.
+
+- Create Thread - 해당 파이프라인 작동에 대해 의견을 나눌 수 있도록 Thread를 생성합니다.
+
+- Fetch Application - Application에 대해 작업을 할 수 있도록 Application Repository를 Clone합니다.
+
+- Create DotEnv - Next.js와 React.js에서 환경변수를 주입하기 위해 Kubernetes Secret으로부터 환경변수를 읽어와 .env 파일을 생성합니다.
+
+- Build Push Image - 컨테이너 빌드 도구 중 Buildah를 사용해 컨테이너를 빌드하고 Container Registry에 Push합니다.
+
+- Fetch Manifest - Manifest를 변경하기 위해 Manifest Repository를 Clone합니다.
+
+- Update Manifest - Build한 이미지의 태그로 Deployment에서 요구하는 이미지를 변경합니다.
+
+- Upload Manifest - 수정사항을 Manifest Repository에 적용시키고 ArgoCD에 Webhook을 보내 Kubernetes Cluster에 배포합니다.
+
+- Notify Results - 파이프라인 작동 결과 보고서를 Slack으로 전송합니다. 만약 파이프라인 실행 도중 실패한 작업이 있다면 실패한 보고서를 전송합니다.
 
 <br>
 
