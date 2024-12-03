@@ -131,7 +131,7 @@
 
 - Upload Manifest - 수정사항을 Manifest Repository에 적용시키고 ArgoCD에 Webhook을 보내 Kubernetes Cluster에 배포합니다.
 
-- Notify Results - 파이프라인 작동 결과 보고서를 Slack으로 전송합니다. 만약 파이프라인 실행 도중 실패한 작업이 있다면 실패한 보고서를 전송합니다.
+- Notify Results - 파이프라인 작동 결과 보고서를 Slack으로 전송합니다. 만약 파이프라인 실행 도중 실패한 작업이 있다면 실패했음을 알립니다.
 
 <br>
 
